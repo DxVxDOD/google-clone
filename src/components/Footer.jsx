@@ -2,8 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className='text-center p-10 mt-10 border-t dark:border-gray-200
+    border-gray-700' >
+      <h1>Google Clone</h1>
     </div>
   );
 };
