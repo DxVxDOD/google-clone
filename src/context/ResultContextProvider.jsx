@@ -14,7 +14,6 @@ export const ResultContextProvider = ({childeren}) => {
     const response = await fetch(`${baseUrl}${type}`, {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': '2360fdfd74msha2947f11b7f085ap1bec68jsn9cc4e39d2275',
         'X-RapidAPI-Host': 'google-search72.p.rapidapi.com',
       },
     });
